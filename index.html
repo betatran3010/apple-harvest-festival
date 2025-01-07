@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="styles/site.css">
+
+    <title> Apple Harvest Festival 2024 </title>
+    <meta name="description" content="Tran Le's Apple Harvest Festival website - homepage">
+</head>
+
+<body>
+    <header>
+        <a href="index.html" title="Home">
+            <picture class="logo">
+                <!-- Source: instructor provided -->
+                <img src="images/apple-harvest-logo.svg" alt="">
+            </picture>
+        </a>
+
+        <button id="hamburger" class="accessible-hidden">
+            <picture>
+                <!-- Source: (original work) Tran Le -->
+                <img src="images/hamburger-icon.png" alt="Open navigation menu">
+            </picture>
+        </button>
+
+        <button id="x-icon" class="accessible-hidden">
+            <picture>
+                <!-- Source: (original work) Tran Le -->
+                <img src="images/x-icon.png" alt="Close navigation menu">
+            </picture>
+        </button>
+
+        <!-- Source: (original work) Tran Le -->
+        <nav id="menu">
+            <menu>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="vendors.html">Vendors</a></li>
+                <li><a href="performances.html">Performances</a></li>
+                <li><a href="directions-transportation.html">Directions & Transportation</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+            </menu>
+        </nav>
+    </header>
+
+    <hgroup>
+        <h1> The 42nd Annual Apple Harvest Festival </h1>
+        <p> Ithaca Commons | Sep 27 - 29 </p>
+    </hgroup>
+
+    <div class="container">
+
+        <main>
+            <h2> Welcome! </h2>
+
+            <div class="welcome">
+                <div class="welcome-images">
+                    <picture>
+                        <!-- Source: instructor provided -->
+                        <img src="images/apple-basket-many.jpg" alt="Apple baskets">
+                    </picture>
+
+                    <picture>
+                        <!-- Source: instructor provided -->
+                        <img src="images/sign-vendor.jpg" alt="Apples sign vendor">
+                    </picture>
+                </div>
+
+                <div class="welcome-text">
+                    <!-- Source: instructor provided -->
+                    <p> We are excited to welcome you back to one of Ithaca’s most celebrated events: the <em> Apple Harvest Festival! </em> </p>
+
+                    <p> The Apple Harvest Festival, held annually in downtown Ithaca, is a beloved community event celebrating the bounty of the fall season. Featuring local farmers, artisans, and vendors, the festival offers a vibrant array of delicious apple-themed treats, fresh produce, unique crafts, and live entertainment. Visitors can enjoy farmstand fresh apples, seasonal baked goods, diverse food trucks, and a craft fair showcasing regional artisans. Live music and entertainment add to the festive atmosphere, while downtown shops offer great apple-inspired products. This family-friendly event draws visitors from near and far to savor seasonal flavors and experience the charm of Ithaca in autumn. </p>
+
+                    <p> Welcome fall with us by visiting one of Ithaca's most famous events! </p>
+                </div>
+            </div>
+
+            <h2> History of Festival </h2>
+
+            <!-- Source: instructor provided -->
+            <p> Since 1982, the Ithaca Apple Harvest Festival hosts apples, baked goods, family entertainment, games, prizes, live entertainment and more. Over 100 talented artists, crafters, bakers, and makers come together for the Apple Harvest Craft Fair! Find creative, unique works from clothing to woodworking, ceramics to paintings, fudge to essential oils and beyond throughout the festival. The festival is held in the Ithaca Commons, a few streets that are full of restaurants and shops. </p>
+
+            <h2> Signature Items </h2>
+
+            <!-- Source: (original work) Tran Le -->
+            <p> Don't forget to indulge in the festival's signature treats, from warm apple cider donuts to caramelized apples and refreshing apple ciders, each crafted with the freshest apples of the season! </p>
+
+            <div class="signature-images">
+                <figure>
+                    <button id="donut-button" class="signature-button">
+                        <!-- Source: instructor provided -->
+                        <img src="images/donut-trays.jpg" alt="Trays of donuts">
+                    </button>
+                    <figcaption> Apple cider donuts </figcaption>
+                </figure>
+
+                <figure>
+                    <button id="apple-button" class="signature-button">
+                        <!-- Source: instructor provided -->
+                        <img src="images/people-eating-apples.jpg" alt="People eating caramelized apples">
+                    </button>
+                    <figcaption> Caramelized apples </figcaption>
+                </figure>
+
+                <figure>
+                    <button id="cider-button" class="signature-button">
+                        <!-- Source: instructor provided -->
+                        <img src="images/apple-cider.jpg" alt="Apple cider jugs">
+                    </button>
+                    <figcaption> Apple cider </figcaption>
+                </figure>
+            </div>
+
+            <div id="donut" class="modal hidden">
+                <div class="modal-content">
+                    <button id="donut-x" class="x-icon-modal">
+                        <picture>
+                            <!-- Source: (original work) Tran Le -->
+                            <img class="x-icon-image" src="images/x-icon.png" alt="Close">
+                        </picture>
+                    </button>
+
+                    <figure>
+                        <!-- Source: instructor provided -->
+                        <img class="modal-image" src="images/donut-trays.jpg" alt="Trays of donuts">
+                    </figure>
+
+                    <!-- Source: (original work) Tran Le -->
+                    <p class="modal-text"> Apple cider donuts are the cozy taste of fall that everyone looks forward to at the Apple Harvest Festival. Made with fresh apple cider, they’re perfectly soft on the inside with a light cinnamon-sugar dusting on the outside that’s just the right amount of sweet. </p>
+                </div>
+            </div>
+
+            <div id="apple" class="modal hidden">
+                <div class="modal-content">
+                    <button id="apple-x" class="x-icon-modal">
+                        <picture>
+                            <!-- Source: (original work) Tran Le -->
+                            <img class="x-icon-image" src="images/x-icon.png" alt="Close">
+                        </picture>
+                    </button>
+
+                    <figure>
+                        <!-- Source: instructor provided -->
+                        <img class="modal-image" src="images/people-eating-apples.jpg" alt="People eating caramelized apples">
+                    </figure>
+
+                    <!-- Source: (original work) Tran Le -->
+                    <p id="apple-text"> Caramelized apples bring the cozy, nostalgic vibe that makes fall feel so special. Imagine biting into a fresh, crisp apple coated in warm, gooey caramel that’s just the right mix of buttery sweetness. Each bite is a perfect balance between the juicy apple and the rich caramel coating! </p>
+                </div>
+            </div>
+
+            <div id="cider" class="modal hidden">
+                <div class="modal-content">
+                    <button id="cider-x" class="x-icon-modal">
+                        <picture>
+                            <!-- Source: (original work) Tran Le -->
+                            <img class="x-icon-image" src="images/x-icon.png" alt="Close">
+                        </picture>
+                    </button>
+
+                    <figure>
+                        <!-- Source: instructor provided -->
+                        <img class="modal-image" src="images/apple-cider.jpg" alt="Apple cider jugs">
+                    </figure>
+
+                    <!-- Source: (original work) Tran Le -->
+                    <p id="cider-text"> Freshly pressed from local apples, apple cider at the Apple Harvest Festival is just the right balance of sweet and a little tangy flavor. Whether you’re sipping it warm to keep yourself cozy on a cool day or enjoying it chilled as you wander around, each sip brings a comforting, autumn vibe. </p>
+                </div>
+            </div>
+
+            <h2> Attendee Testimonials </h2>
+
+            <!-- Source: (original work) Tran Le -->
+            <ul class="testimonials">
+                <li>
+                    <blockquote> "I loved the variety of delicious foods available at the festival! The atmosphere was vibrant, and I had a great time exploring the different vendors. I also went to a jewelry vendor, and the staff there was so friendly. They helped me pick out a perfect pair of earrings." </blockquote>
+                </li>
+
+                <li>
+                    <blockquote> "The apple cider donuts were a highlight of my day! I came for a quick outing to have a break from my studies, and the festival surely did not disappoint me. I just love the lively atmosphere and the Ithaca spirit there." </blockquote>
+                </li>
+
+                <li>
+                    <blockquote> "As a long-time resident of Ithaca, the Apple Harvest Festival is a cherished tradition for my family. We had a wonderful time together, making new memories while enjoying the crafts and food. My grandchildren especially loved the Fairy Doors, and it was so heartwarming to see their joy at the festival." </blockquote>
+                </li>
+            </ul>
+
+        </main>
+
+        <aside>
+            <h2> Festival Hours </h2>
+
+            <!-- Source: instructor provided -->
+            <ul>
+                <li>
+                    <div class="day"> Friday, September 27: </div> 12pm - 6pm
+                </li>
+                <li>
+                    <div class="day"> Saturday, September 28: </div> 10am - 6pm
+                </li>
+                <li>
+                    <div class="day"> Sunday, September 29: </div> 10am - 6pm
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <!-- Source: (original work) Tran Le -->
+    <footer>
+        <p> Copyright &copy; 2024 Downtown Ithaca Alliance </p>
+
+        <div class="contact">
+            <a href="https://www.facebook.com/downtownithaca" title="Facebook">
+                <picture>
+                    <!-- Source: (original work) Tran Le -->
+                    <img src="images/facebook.png" alt="Facebook">
+                </picture>
+            </a>
+
+            <a href="https://www.instagram.com/downtownithaca/" title="Instagram">
+                <picture>
+                    <!-- Source: (original work) Tran Le -->
+                    <img src="images/instagram.png" alt="Instagram">
+                </picture>
+            </a>
+
+            <a href="mailto:info@downtownithaca.com" title="Instagram">
+                <picture>
+                    <!-- Source: (original work) Tran Le -->
+                    <img src="images/email.png" alt="Email">
+                </picture>
+            </a>
+
+            <p> Phone: (607) 277-8679 </p>
+        </div>
+    </footer>
+
+    <script src="scripts/jquery-3.7.1.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/modals.js"></script>
+</body>
+
+</html>
