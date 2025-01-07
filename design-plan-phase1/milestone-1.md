@@ -1,34 +1,6 @@
 # Project 1, Milestone 1: Design Journey
 
-[← Table of Contents](design-journey.md)
-
-
-> **Replace ALL _TODOs_ with your work.** (There should be no TODOs in the final submission.)
->
-> Be clear and concise in your writing. Bullets points are encouraged.
->
-> Place all design journey images inside the "design-plan" folder and then link them in Markdown so that they are visible in Markdown Preview.
->
-> **Everything, including images, must be visible in _Markdown: Open Preview_.** If it's not visible in the Markdown preview, then we can't grade it. We also can't give you partial credit either. **Please make sure your design journey should is easy to read for the grader;** in Markdown preview the question _and_ answer should have a blank line between them.
-
-
-## Markdown Instructions
-
-**Please use the official [Markdown Reference Documentation](https://commonmark.org/help/) if you aren't sure how to "code" Markdown.**
-
-This is an example for inserting images into Markdown:
-
-![Example Sketch](example-sketch.png)
-
-
 ## User Interview Planning
-> Plan the user interview which you'll use to identify the goals of your site's audience.
-> You may use the interview template below and revise it as much as you desire.
-> You are **required to author 3 of your own questions**.
-
-**User Interview Briefing & Consent:** Hi, I am a student at Cornell University. I'm currently taking a class on web design and for a project, I am re-designing the website for Ithaca's Apple Harvest Festival. I'm trying to learn more about the people that might use this site. May I ask you a few questions? It will take about 10 minutes. You are free to quit at any time.
-
-> (These questions assume you are interviewing a festival attendee at the festival. If you didn't attend the festival, you may revise the questions and instead ask the participant to recall the last festival/event they attended.)
 
 1. Please tell me a bit about yourself. You may omit any personal or private information.
 
@@ -50,14 +22,7 @@ This is an example for inserting images into Markdown:
 
 8. What haven't I asked you today that you think would be valuable for me to know?
 
-**After the interview:** This was really helpful. Thank you so much for agreeing to speak with me today. Have a great day!
-
-
 ## Interview Notes
-> Interview at least 3 people from your audience.
-> Take notes and include those notes here. Make sure to include a brief description of each interviewee.
-> **Copy the interview questions above into each interviewee section below.**
-> Take notes for each participant inline with the questions. You should have about 1 sentence in notes for each question.
 
 **Interviewee 1:**
 
@@ -123,7 +88,6 @@ My participant is an older adult living in Ithaca who took her husband and grand
 
 
 ## Audience Goals
-> Analyze your audience's goals from your notes above.
 
 1. Finding and accessing information easily as the audience sought out information (online maps, date & time information, physical signage) before and during the festival
 2. Knowing how they should prepare for or handle potential challenges at the festival
@@ -134,13 +98,6 @@ My participant is an older adult living in Ithaca who took her husband and grand
 My audience for this website is Ithaca Area Residents.
 
 ## Planned Content
-> List **all** the content you plan to include in website.
->
-> **Do not include your actual content here!**
-> (All content should be located in the `design-plan/tmp-content` folder.)
-> Simply provide a **very short description** of each piece of content.
->
-> You should list all types of content you planned to include (i.e. text, photos, images, etc.)
 
 - Logo of the festival
 - Navigation menu
@@ -170,8 +127,6 @@ My audience for this website is Ithaca Area Residents.
 
 
 ## Content Justification
-> Explain why this content is the right content for your site's audience and how the content addresses their goals.
-> (1-3 sentences)
 
 - The logo, dates & hours, and paragraphs giving an overview of the festival and its history help attendees get to know the festival before coming there.
 - Content on map and directions provides clearer guidance on finding the type of vendors they're looking for, meets the audience's need for clear transportation information, and improves on-site navigation.
@@ -179,9 +134,6 @@ My audience for this website is Ithaca Area Residents.
 - A FAQs section gives attendees quick answers to concerns about weather, payments, peak times, etc., to help them prepare for potential challenges at the festival.
 
 ## Content Organization
-> Document your card sorting here.
-> Include photographic evidence of card sorting **and** description of your thought process. (1-2 sentences)
-> Please physically sort cards; please don't do this digitally.
 
 **Card sorting 1**
 ![Home1](home1-cardsort.jpg)
@@ -213,27 +165,20 @@ In this first iteration of card sorting, I divide the content into 7 groups: Hom
 In this second iteration of card sorting, I also divide the content into 7 groups: Home, Vendors, Performances, Directions & Transportation, FAQs, Header, and Footer. Everything is the same as card sorting 1 except for the location of the signature item section. It is now also placed on the "Home" page along with their images. Since not all people will go to the "Vendors" page, doing so can more quickly showcase what makes the festival special to the audience and encourage them to explore the website further.
 
 ## Final Content Organization
-> If you conducted more than one iteration of card sorting,
-> which iteration of card sorting will you use for your website? (1 sentence)
 
 I will use the second iteration for my website.
-
-> Explain how the final organization of content is appropriate for your site's audiences. (1-2 sentences)
 
 - This card sorting organization addresses the audience's goals by providing immediate access and easy navigation to key information they are seeking, whether it is vendor information, performance location & schedules, on-site navigation or transporation options.
 - I decide to additionally highlight signature items along with their images right on the homepage to immediately draws users' attention to the festival's unique offerings, thus guiding them on how to explore the festival if they're unsure and making sure they won't miss these must-try products. Signature items were significant motivators for some participants in the interviews.
 - Since my audience are Ithaca Area Residents, I don't include questions that people coming from other areas may have in the FAQs page but focus more on the potential factors that may affect the festival experience that the participants had reported. I don't create separate pages for these factors because they don't have much content and aren't the main parts of the festival.
 
 ## Navigation
-> Please list the pages you will include in your website's navigation.
 
 - Home
 - Vendors
 - Performances
 - Directions & Transportation
 - FAQs
-
-> Explain why the names of these pages make sense for your site's audience. (1-2 sentences)
 
 - Home: Since this page provides a welcoming introduction and quick access to essential information about the festival, naming it "Home" makes the page a starting point for all users.
 - Vendors: Naming "Vendors" for this page is appropriate because it allows attendees to know that they're browsing through different types of vendors and their respective products.
@@ -247,13 +192,9 @@ I will use the second iteration for my website.
 
 ![San Diego Tet Festival](tetfestival.png)
 
-- What **goals** do you think the audience likely has when visiting this site.
+**Goals of the audience**: The audience may want to know the dates, times, and locations of the festival, which is a multi-day celebration. They also seek details on specific activities like the pageant competition, performances, and cultural activities like lion dancing, the lucky red envelope ceremony, etc. Additionally, they want practical information about transportation, parking, and festival rules.
 
-The audience may want to know the dates, times, and locations of the festival, which is a multi-day celebration. They also seek details on specific activities like the pageant competition, performances, and cultural activities like lion dancing, the lucky red envelope ceremony, etc. Additionally, they want practical information about transportation, parking, and festival rules.
-
-- What do you like about the design?
-
-I like how the design separates different activities into different pages, which makes it easy for users to navigate to event details. The bright, celebratory imagery really evokes an inviting, energetic, festive atmosphere typical of Lunar New Year. They also help me visualize what the activities at the festival would look like. The font is pretty readable and the color palette is vibrant, which reinforce the event's lively atmosphere and bring an Asian vibe.
+**What I like**: I like how the design separates different activities into different pages, which makes it easy for users to navigate to event details. The bright, celebratory imagery really evokes an inviting, energetic, festive atmosphere typical of Lunar New Year. They also help me visualize what the activities at the festival would look like. The font is pretty readable and the color palette is vibrant, which reinforce the event's lively atmosphere and bring an Asian vibe.
 
 ## Festival Example Website 2
 
@@ -261,18 +202,11 @@ I like how the design separates different activities into different pages, which
 
 ![Wine & Chocolate Festival](winechocolate.png)
 
-- What **goals** do you think the audience likely has when visiting this site.
+**Goals of the audience**: The audience likely aim to find event details, such as the dates, times, and locations, while also looking for ticket purchase options. They also want information on the wine, chocolate, craft vendors and other vendors present, along with details about hotel options and logistical aspects like parking or transportation. Vendors who are interested in selling their products also pay attention to the registration forms.
 
-The audience likely aim to find event details, such as the dates, times, and locations, while also looking for ticket purchase options. They also want information on the wine, chocolate, craft vendors and other vendors present, along with details about hotel options and logistical aspects like parking or transportation. Vendors who are interested in selling their products also pay attention to the registration forms.
-
-- What do you like about the design?
-
-In addition to the navigation menu at the top of the page, the website has a sidebar menu that users can use to navigate different sections without going to another page. Its choice of headings and fonts make the website looks pretty clean and well-organized. I also love how the designers use the color red and brown to indirectly remind users that the festival is about wine and chocolate.
+**What I like**: In addition to the navigation menu at the top of the page, the website has a sidebar menu that users can use to navigate different sections without going to another page. Its choice of headings and fonts make the website looks pretty clean and well-organized. I also love how the designers use the color red and brown to indirectly remind users that the festival is about wine and chocolate.
 
 ## Entire Website's "Laptop" Design
-> Plan the design of the website for laptop devices.
-> Include a sketch for each page of your website.
-> Label each sketch, so that we understand what page we are reviewing. (1 short phrase per sketch)
 
 ![Home](home-sketch.jpg)
 ![Vendors](vendors-sketch.jpg)
@@ -283,9 +217,6 @@ In addition to the navigation menu at the top of the page, the website has a sid
 (The pink boxes are the names of the pages; they aren't included in the page)
 
 ## Design Rationale
-> Explain why your design is appropriate for your audience.
-> Specially, why does your content organization, navigation, and site design/layout meet the goals of your users?
-> How did you employ familiarity to improve the usability of the site for your audience? (2-4 sentences)
 
 - My navigation bar leads to 5 pages as I outlined before.
 - The logo is at the top left corner, the name of the each current page is central-aligned at the top of the page, and the headings have a thin border below them to draw users' attention to main sections and align with the design of many festival websites.
@@ -294,17 +225,6 @@ In addition to the navigation menu at the top of the page, the website has a sid
 - Additionally, I include images in every page except for the FAQs page to help the audience visualize different aspects of the festival (there's no image in the FAQs page because I want to mainly focus on the questions and answers). I also write the full word "Frequently Asked Questions" in the heading in case someone doesn't know the acronym.
 
 ## References
-
-### Collaborators
-> List any persons you collaborated with on this project.
-
-
-### Reference Resources
-> Did you use any resources not provided by this class to help you complete this assignment?
-> List any external resources you referenced in the creation of your project. (i.e. W3Schools, StackOverflow, Mozilla, etc.)
->
-> List **all** resources you used (websites, articles, books, etc.), including generative AI.
-> Provide the URL to the resources you used and include a short description of how you used each resource.
 
 I used this website for information on bus routes:
 <https://tcatbus.com/bus-schedules>
