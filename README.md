@@ -40,5 +40,10 @@ Building on the static website, I added client-side interactivity using JavaScri
 - Coded the interactivity using JavaScript.
 - Explained how the interactive features met the principles of affordances, feedback, visibility, and familiarity.
 
+# Design Journeys
+[Design Journey Phase 1](design-plan-phase1/design-journey.md)
+[Design Journey Phase 2](design-plan-phase2/design-journey.md)
+
+
 # Website Link 
 <https://betatran3010.github.io/apple-harvest-festival/>
