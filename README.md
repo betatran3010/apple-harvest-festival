@@ -42,6 +42,7 @@ Building on the static website, I added client-side interactivity using JavaScri
 
 # Design Journeys
 [Design Journey Phase 1](design-plan-phase1/design-journey.md)
+
 [Design Journey Phase 2](design-plan-phase2/design-journey.md)
 
 
